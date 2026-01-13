@@ -6,11 +6,11 @@ app.set("view engine","ejs")
 const knex = require("knex")({
  client: "mysql",
  connection: {
-  host:"donut-rds-instance.cj6c8u2cqrgo.us-east-2.rds.amazonaws.com",
-  user: "admin",
-  password: "DonutPass123",
-  database:"donutdb",
-  port: 3306,
+  host:"",
+  user: "",
+  password: "",
+  database:"",
+  port: ,
  },
 });
 
